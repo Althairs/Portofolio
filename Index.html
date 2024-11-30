@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Responsif</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <a href="#">PortofolioKu</a>
+    </div>
+    <div class="navbar-toggle">☰</div> <!-- Tombol Toggle -->
+    <ul class="navbar-menu">
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#proyek">Proyek</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Bagian Tentang -->
+  <section id="tentang" class="section">
+    <h1>Tentang Saya</h1>
+    <p>Halo! Saya Satria Indra Dewangga, seorang web development dan mobile app. 
+       Saya suka membuat desain interaktif dan ramah pengguna. Selamat datang di portofolio saya!</p>
+  </section>
+
+  <!-- Bagian Proyek -->
+  <section id="proyek" class="section">
+    <h1>Proyek Saya</h1>
+    <div class="projects-container">
+      <div class="project-card">
+        <h2>Proyek 1</h2>
+        <p>Deskripsi singkat tentang proyek Anda.</p>
+      </div>
+      <div class="project-card">
+        <h2>Proyek 2</h2>
+        <p>Deskripsi singkat tentang proyek Anda.</p>
+      </div>
+      <div class="project-card">
+        <h2>Proyek 3</h2>
+        <p>Deskripsi singkat tentang proyek Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Keahlian -->
+  <section id="keahlian" class="section">
+    <h1>Keahlian Saya</h1>
+    <ul class="skills-list">
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
+      <li>Java</li>
+    </ul>
+  </section>
+
+  <!-- Bagian Kontak -->
+  <section id="kontak" class="section">
+    <h1>Hubungi Saya</h1>
+    <p>Jika Anda ingin berkolaborasi atau memiliki pertanyaan, silakan hubungi saya!</p>
+    <form action="#" method="POST" class="contact-form">
+      <input type="text" name="nama" placeholder="Nama Anda" required>
+      <input type="email" name="email" placeholder="Email Anda" required>
+      <textarea name="pesan" placeholder="Pesan Anda" rows="5" required></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
